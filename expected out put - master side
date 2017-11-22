@@ -1,0 +1,54 @@
+Server started...
+
+Please enter  any of the operations: PUT UPDATE DELETE
+PUT
+The Operation specified is PUT
+Please enter the Value :
+apple
+The key is : 18132080
+
+SUMMARY
+-------
+OPERATION = PUT
+KEY=18132080
+VALUE=apple
+
+Please enter  any of the operations: PUT UPDATE DELETE
+UPDATE
+The Operation specified is UPDATE
+Please enter the Key :
+729749744
+Key not in database
+Please enter the Key
+18132080
+Please enter the Value: 
+orange
+
+SUMMARY
+-------
+OPERATION=UPDATE
+KEY=18132080
+VALUE BEFORE UPDATE=apple
+VALUE AFTER UPDATE=orange
+
+Please enter  any of the operations: PUT UPDATE DELETE
+DELETE
+The Operation specified is DELETE
+Please eneter the Key: 
+8482424
+Key not in database
+Please enter the Key
+18132080
+
+SUMMARY
+-------
+OPERATION=DELETE
+KEY=18132080
+VALUE=orange
+
+Please enter  any of the operations: PUT UPDATE DELETE
+GET
+INVALID OPERATION
+
+Please enter  any of the operations: PUT UPDATE DELETE
+
