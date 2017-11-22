@@ -31,6 +31,6 @@ Value and key will be deleted from the databases
       
 # run the slave:(in another terminally)
       python3 slave.py
-      
+ #Enter the operation to be done (PUT , UPDATE or DELETE)     
 
  
