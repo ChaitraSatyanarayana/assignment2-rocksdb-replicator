@@ -1,0 +1,37 @@
+Client started
+
+Client waiting .....
+
+SUMMARY
+-------
+OPERATION=PUT
+KEY=18132080
+VALUE=apple
+
+Client waiting .....
+
+SUMMARY
+-------
+OPERATION=UPDATE
+KEY=18132080
+VALUE BEFORE UPDATE=apple
+VALUE AFTER UPDATE=orange
+
+Client waiting .....
+
+SUMMARY
+-------
+OPERATION=DELETE
+KEY=18132080
+VALUE=orange
+
+Client waiting .....
+
+SUMMARY
+-------
+OPERATION=GET
+KEY=18132080
+VALUE=orange
+
+Client waiting .....
+
