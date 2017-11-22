@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+message Request{
+    string connect_request =1;
+}
+
+message Response{
+    string connect_response=1;
+}
+
+message Store_Request{
+    string store_request =1;
+}
+message Data{
+    string opeartion=1;
+    string key=2;
+    string value=3;
+}
+
+service Replicate{
+   rpc connect_master(Request) returns (Response){}
+   rpc store(Store_Request) returns(Data){}
+}
+
